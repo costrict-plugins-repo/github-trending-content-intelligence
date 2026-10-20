@@ -1,0 +1,48 @@
+{
+  "$schema": "https://claude.ai/schemas/marketplace.json",
+  "name": "adology-marketplace",
+  "displayName": "Adology",
+  "owner": {
+    "name": "Adology, Inc.",
+    "email": "hello@getadology.com",
+    "url": "https://getadology.com"
+  },
+  "plugins": [
+    {
+      "name": "content-intelligence",
+      "displayName": "Adology — Content Intelligence",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adologyai/content-intelligence-plugin.git"
+      },
+      "version": "0.3.0",
+      "description": "Competitive ad intelligence inside Claude and other AI agents — discover brands, build portfolios and project scopes, analyze content, and generate insights powered by Adology's data platform.",
+      "shortDescription": "Competitive ad intelligence for marketers, powered by Adology.",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "advertising",
+        "competitive-intelligence",
+        "influencer",
+        "creative",
+        "audience-research",
+        "content-strategy",
+        "ad-library",
+        "social-media",
+        "brand-analysis"
+      ],
+      "icon": "./.claude-plugin/icon.svg",
+      "homepage": "https://getadology.com",
+      "documentation": "https://github.com/adologyai/content-intelligence-plugin#readme",
+      "support": "hello@getadology.com",
+      "repository": "https://github.com/adologyai/content-intelligence-plugin",
+      "license": "Apache-2.0",
+      "pricing": "subscription",
+      "pricingUrl": "https://getadology.com/pricing",
+      "authRequired": true,
+      "authType": "oauth2.1",
+      "privacyPolicy": "https://app.termly.io/policy-viewer/policy.html?policyUUID=1ae61180-1e11-43b8-9e28-0e872447a395",
+      "termsOfService": "https://getadology.com/terms"
+    }
+  ]
+}
